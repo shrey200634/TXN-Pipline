@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# Environment variables — NEVER commit this
+.env
+
+# Alembic versions (commit these, but not the compiled cache)
+alembic/versions/__pycache__/
+
+# Docker volumes / local data
+pgdata/
+redisdata/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
